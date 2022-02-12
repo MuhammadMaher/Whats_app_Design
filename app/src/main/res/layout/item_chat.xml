@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_margin="@dimen/_10sdp"
+    android:id="@+id/circle_image"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_width="@dimen/_50sdp"
+    android:layout_height="@dimen/_50sdp"
+    android:src="@drawable/mmmm1"
+    />
+    <TextView
+        android:id="@+id/tv_name"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/circle_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mohamed_maher"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_marginTop="@dimen/_2sdp"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"
+        app:layout_constraintStart_toEndOf="@id/circle_image"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_last_message_from_mohamed"
+        android:maxLines="1"
+        android:ellipsize="end"
+        />
+    <TextView
+        android:id="@+id/tv_Time"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="@id/tv_name"
+        app:layout_constraintBottom_toBottomOf="@id/tv_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_09_00_pm"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

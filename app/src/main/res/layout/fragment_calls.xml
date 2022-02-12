@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Calls.CallsFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+        android:id="@+id/camera"
+        android:rotationY="180"
+        app:fabSize="auto"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_add_ic_call_plus"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            app:tint="@color/black"
+            android:rotationY="180"
+            app:layout_constraintEnd_toEndOf="@id/camera"
+            android:layout_margin="@dimen/_10sdp"
+            app:layout_constraintStart_toStartOf="@id/camera"
+            app:fabSize="mini"
+            android:src="@drawable/ic_round_videocam_24"
+            app:layout_constraintBottom_toTopOf="@id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_calls"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:listitem="@layout/item_calls"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    android:orientation="vertical"
+    app:spanCount="1"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

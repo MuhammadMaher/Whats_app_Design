@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Whats_app_Design</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="user_name">User Name</string>
+    <string name="last_active_is_5_00_pm">last Active is 5:00 pm</string>
+    <string name="texting">Texting....</string>
+    <string name="mohamed_maher" >Mohamed Maher</string>
+    <string name="my_statue">My Statue</string>
+    <string name="new_statues">New Statues</string>
+
+    <string name="date">date</string>
+
+    <string name="this_is_last_message_from_mohamed">This is last Message from mohamed</string>
+    <string name="_09_00_pm">09:00 pm</string>
+</resources>

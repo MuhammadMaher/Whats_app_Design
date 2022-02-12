@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تصميم واتس اب</string>
+    <string name="user_name">اسم المستحدم</string>
+    <string name="last_active_is_5_00_pm">اخر نشاط الساعة   5 مساء</string>
+    <string name="texting">المراسلة</string>
+    <string name="mohamed_maher">محمد ماهر</string>
+    <string name="my_statue">حالتي</string>
+    <string name="new_statues">الحالات الجديدة</string>
+    <string name="date">التاريخ</string>
+    <string name="this_is_last_message_from_mohamed">هذة اخر رسالة من محمد</string>
+    <string name="_09_00_pm">9:00 ص</string>
+</resources>
